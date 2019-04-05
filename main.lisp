@@ -56,3 +56,18 @@
             (quick-sort arr test left (decr pivot))
             (quick-sort arr test (incr pivot) right))))))
 
+(defun really-simple-sort (arr)
+  (let ((ones-num 0)
+        (result (make-array (array-total-size arr))))
+    (progn
+      (loop for x across arr do
+            (cond ((equal 2 x) NIL)
+                  ((equal 1 x) (setf ones-num (incr ones-num)))
+                  (t (error "Unexpected number!"))))
+      (loop for x from 0 to (decr ones-num) do
+            (setf (svref result x) 1))
+      (loop for x from ones-num to (decr (array-total-size arr)) do
+            (setf (svref result x) 2))
+      result)))
+
+
