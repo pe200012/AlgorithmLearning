@@ -78,9 +78,8 @@
                   (t (setf (svref result x) (incr (svref result x))))))
       result)))
 
-(defun counting-less (arr)
-  (let ((result (make-array (array-total-size arr)))
-        (equal-result (counting-equal arr)))
+(defun counting-less (arr equal-result)
+  (let ((result (make-array (array-total-size arr))))
     (progn
       (setf (svref result 0) 0)
       (loop for x from 1 to (decr (array-total-size arr)) do
@@ -88,5 +87,22 @@
                                       (svref equal-result (decr x)))))
       result)))
 
+(defun rearrange (arr less)
+  (let* ((len (array-total-size arr))
+        (next (make-array len))
+        (result (make-array len)))
+    (progn
+      (loop for x from 0 to (decr len) do
+            (setf (svref next x) (incr (svref less x))))
+      (loop for x across arr do
+            (let* ((index (svref next x)))
+              (progn
+                (setf (svref result (decr index)) x)
+                (setf (svref next x) (incr index))))
+            finally (return result)))))
 
+(defun counting-sort (arr)
+  (let* ((equal-result (counting-equal arr))
+         (less-result  (counting-less  arr equal-result)))
+    (rearrange arr less-result)))
 
