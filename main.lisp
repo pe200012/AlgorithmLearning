@@ -2,9 +2,6 @@
 (defmacro decr (x) `(- ,x 1))
 (defmacro incr (x) `(+ ,x 1))
 
-(defun neg (f)
-  (lambda (&rest args) (not (apply f args))))
-
 (defun swap (arr a b)
   (let ((old-a (svref arr a)))
     (progn
