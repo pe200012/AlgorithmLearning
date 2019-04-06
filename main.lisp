@@ -70,4 +70,23 @@
             (setf (svref result x) 2))
       result)))
 
+(defun counting-equal (arr)
+  (let ((result (make-array (array-total-size arr) :initial-element 0)))
+    (progn
+      (loop for x across arr do
+            (cond ((not (integerp x)) (error "Unexpected element type!"))
+                  (t (setf (svref result x) (incr (svref result x))))))
+      result)))
+
+(defun counting-less (arr)
+  (let ((result (make-array (array-total-size arr)))
+        (equal-result (counting-equal arr)))
+    (progn
+      (setf (svref result 0) 0)
+      (loop for x from 1 to (decr (array-total-size arr)) do
+            (setf (svref result x) (+ (svref result (decr x))
+                                      (svref equal-result (decr x)))))
+      result)))
+
+
 
