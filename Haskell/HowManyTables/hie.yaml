@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "HowManyTables:lib"
+
+    - path: "./app/Main.hs"
+      component: "HowManyTables:exe:HowManyTables-exe"
+
+    - path: "./app/Paths_HowManyTables.hs"
+      component: "HowManyTables:exe:HowManyTables-exe"
+
+    - path: "./test"
+      component: "HowManyTables:test:HowManyTables-test"

@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "EddysShuffleProblem:lib"
+
+    - path: "./app/Main.hs"
+      component: "EddysShuffleProblem:exe:EddysShuffleProblem-exe"
+
+    - path: "./app/Paths_EddysShuffleProblem.hs"
+      component: "EddysShuffleProblem:exe:EddysShuffleProblem-exe"
+
+    - path: "./test"
+      component: "EddysShuffleProblem:test:EddysShuffleProblem-test"

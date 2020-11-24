@@ -1,0 +1,11 @@
+2020-11-03 19:42:13.148046658000 [225224(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 19:42:28.684459533000 [225397(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 19:43:13.305533357000 [225762(ThreadId 17)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2020-11-03 19:43:31.817623694000 [225762(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 19:43:37.768403481000 [226006(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 19:44:01.388042115000 [226205(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 19:54:06.644796636000 [230094(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 20:08:05.959960315000 [234305(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 20:08:12.257553226000 [234424(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 20:08:46.907977692000 [234631(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 20:08:58.519475308000 [234768(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.

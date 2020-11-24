@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "CantorTable:lib"
+
+    - path: "./app/Main.hs"
+      component: "CantorTable:exe:CantorTable-exe"
+
+    - path: "./app/Paths_CantorTable.hs"
+      component: "CantorTable:exe:CantorTable-exe"
+
+    - path: "./test"
+      component: "CantorTable:test:CantorTable-test"

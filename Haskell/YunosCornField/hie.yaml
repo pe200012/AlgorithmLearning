@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "YunosCornField:lib"
+
+    - path: "./app/Main.hs"
+      component: "YunosCornField:exe:YunosCornField-exe"
+
+    - path: "./app/Paths_YunosCornField.hs"
+      component: "YunosCornField:exe:YunosCornField-exe"
+
+    - path: "./test"
+      component: "YunosCornField:test:YunosCornField-test"

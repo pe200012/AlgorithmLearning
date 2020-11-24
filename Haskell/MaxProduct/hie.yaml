@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "MaxProduct:lib"
+
+    - path: "./app/Main.hs"
+      component: "MaxProduct:exe:MaxProduct-exe"
+
+    - path: "./app/Paths_MaxProduct.hs"
+      component: "MaxProduct:exe:MaxProduct-exe"
+
+    - path: "./test"
+      component: "MaxProduct:test:MaxProduct-test"

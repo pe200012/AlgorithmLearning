@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "ISBN:lib"
+
+    - path: "./app/Main.hs"
+      component: "ISBN:exe:ISBN-exe"
+
+    - path: "./app/Paths_ISBN.hs"
+      component: "ISBN:exe:ISBN-exe"
+
+    - path: "./test"
+      component: "ISBN:test:ISBN-test"

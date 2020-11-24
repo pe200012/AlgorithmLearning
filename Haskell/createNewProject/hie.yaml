@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "createNewProject:lib"
+
+    - path: "./app/Main.hs"
+      component: "createNewProject:exe:createNewProject-exe"
+
+    - path: "./app/Paths_createNewProject.hs"
+      component: "createNewProject:exe:createNewProject-exe"
+
+    - path: "./test"
+      component: "createNewProject:test:createNewProject-test"

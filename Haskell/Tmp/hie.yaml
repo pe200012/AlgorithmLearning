@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "Tmp:lib"
+
+    - path: "./app/Main.hs"
+      component: "Tmp:exe:Tmp-exe"
+
+    - path: "./app/Paths_Tmp.hs"
+      component: "Tmp:exe:Tmp-exe"
+
+    - path: "./test"
+      component: "Tmp:test:Tmp-test"

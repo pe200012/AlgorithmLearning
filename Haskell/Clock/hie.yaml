@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "Clock:lib"
+
+    - path: "./app/Main.hs"
+      component: "Clock:exe:Clock-exe"
+
+    - path: "./app/Paths_Clock.hs"
+      component: "Clock:exe:Clock-exe"
+
+    - path: "./test"
+      component: "Clock:test:Clock-test"

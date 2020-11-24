@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "Arbitrage:lib"
+
+    - path: "./app/Main.hs"
+      component: "Arbitrage:exe:Arbitrage-exe"
+
+    - path: "./app/Paths_Arbitrage.hs"
+      component: "Arbitrage:exe:Arbitrage-exe"
+
+    - path: "./test"
+      component: "Arbitrage:test:Arbitrage-test"

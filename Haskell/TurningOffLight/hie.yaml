@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "TurningOffLight:lib"
+
+    - path: "./app/Main.hs"
+      component: "TurningOffLight:exe:TurningOffLight-exe"
+
+    - path: "./app/Paths_TurningOffLight.hs"
+      component: "TurningOffLight:exe:TurningOffLight-exe"
+
+    - path: "./test"
+      component: "TurningOffLight:test:TurningOffLight-test"

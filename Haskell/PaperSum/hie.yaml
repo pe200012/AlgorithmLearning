@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "PaperSum:lib"
+
+    - path: "./app/Main.hs"
+      component: "PaperSum:exe:PaperSum-exe"
+
+    - path: "./app/Paths_PaperSum.hs"
+      component: "PaperSum:exe:PaperSum-exe"
+
+    - path: "./test"
+      component: "PaperSum:test:PaperSum-test"

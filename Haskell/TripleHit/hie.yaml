@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "TripleHit:lib"
+
+    - path: "./app/Main.hs"
+      component: "TripleHit:exe:TripleHit-exe"
+
+    - path: "./app/Paths_TripleHit.hs"
+      component: "TripleHit:exe:TripleHit-exe"
+
+    - path: "./test"
+      component: "TripleHit:test:TripleHit-test"

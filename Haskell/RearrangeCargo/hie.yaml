@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "RearrangeCargo:lib"
+
+    - path: "./app/Main.hs"
+      component: "RearrangeCargo:exe:RearrangeCargo-exe"
+
+    - path: "./app/Paths_RearrangeCargo.hs"
+      component: "RearrangeCargo:exe:RearrangeCargo-exe"
+
+    - path: "./test"
+      component: "RearrangeCargo:test:RearrangeCargo-test"

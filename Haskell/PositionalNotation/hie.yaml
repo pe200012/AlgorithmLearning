@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "PositionalNotation:lib"
+
+    - path: "./app/Main.hs"
+      component: "PositionalNotation:exe:PositionalNotation-exe"
+
+    - path: "./app/Paths_PositionalNotation.hs"
+      component: "PositionalNotation:exe:PositionalNotation-exe"
+
+    - path: "./test"
+      component: "PositionalNotation:test:PositionalNotation-test"

@@ -1,0 +1,22 @@
+2020-10-27 15:12:01.278227903000 [24183(ThreadId 17)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2020-10-27 15:13:57.866527426000 [25019(ThreadId 17)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2020-10-27 15:14:45.158346866000 [25439(ThreadId 17)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2020-10-27 15:15:34.661673609000 [26289(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/data/Document/Development/CodeCollection/Haskell/Tmp/app/Main.hs> [("Main","/mnt/data/Document/Development/CodeCollection/Haskell/Tmp/test/Spec.hs")])
+2020-10-27 15:15:35.731551908000 [26289(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-10-27 15:15:42.697417622000 [26420(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/data/Document/Development/CodeCollection/Haskell/Tmp/app/Main.hs> [("Main","/mnt/data/Document/Development/CodeCollection/Haskell/Tmp/test/Spec.hs")])
+2020-10-27 15:15:44.770939246000 [26420(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-10-27 15:15:53.155353416000 [26571(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/data/Document/Development/CodeCollection/Haskell/Tmp/app/Main.hs> [("Main","/mnt/data/Document/Development/CodeCollection/Haskell/Tmp/test/Spec.hs")])
+2020-10-27 15:15:54.290782090000 [26571(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-10-27 15:17:38.305896620000 [26906(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-10-27 16:34:15.310137488000 [60600(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:50:43.890911337000 [288781(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:50:53.664978599000 [288931(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:51:00.688223717000 [289067(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:56:51.510689819000 [291579(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:56:56.154530013000 [291698(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:57:04.900254150000 [291849(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:57:41.798319521000 [292190(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:58:57.467472740000 [292787(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:59:16.090933186000 [293012(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:59:20.608321667000 [293126(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-03 22:59:24.914066279000 [293243(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.

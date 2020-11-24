@@ -1,0 +1,71 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: dbe5777a8ce71953bda84aca5f6337d341eea4133abbae8dac6394c2f26f330e
+
+name:           Arbitrage
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/Arbitrage#readme>
+homepage:       https://github.com/githubuser/Arbitrage#readme
+bug-reports:    https://github.com/githubuser/Arbitrage/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/Arbitrage
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_Arbitrage
+  hs-source-dirs:
+      src
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , containers
+    , microlens
+  default-language: Haskell2010
+
+executable Arbitrage-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_Arbitrage
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Arbitrage
+    , QuickCheck
+    , base >=4.7 && <5
+    , containers
+    , microlens
+  default-language: Haskell2010
+
+test-suite Arbitrage-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_Arbitrage
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Arbitrage
+    , QuickCheck
+    , base >=4.7 && <5
+    , containers
+    , microlens
+  default-language: Haskell2010

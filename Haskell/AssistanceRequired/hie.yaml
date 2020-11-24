@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "AssistanceRequired:lib"
+
+    - path: "./app/Main.hs"
+      component: "AssistanceRequired:exe:AssistanceRequired-exe"
+
+    - path: "./app/Paths_AssistanceRequired.hs"
+      component: "AssistanceRequired:exe:AssistanceRequired-exe"
+
+    - path: "./test"
+      component: "AssistanceRequired:test:AssistanceRequired-test"

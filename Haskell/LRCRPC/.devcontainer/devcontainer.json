@@ -1,0 +1,11 @@
+{
+    "name": "Haskell dev-env",
+    "image": "pe200012/haskell:hie",
+    "forwardPorts": [3000],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "alanz.vscode-hie-server"
+    ]
+} 

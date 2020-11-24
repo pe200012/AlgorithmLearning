@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "HanoiTowerII:lib"
+
+    - path: "./app/Main.hs"
+      component: "HanoiTowerII:exe:HanoiTowerII-exe"
+
+    - path: "./app/Paths_HanoiTowerII.hs"
+      component: "HanoiTowerII:exe:HanoiTowerII-exe"
+
+    - path: "./test"
+      component: "HanoiTowerII:test:HanoiTowerII-test"

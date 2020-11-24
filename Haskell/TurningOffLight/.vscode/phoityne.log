@@ -1,0 +1,6 @@
+2020-11-21 10:25:57.354654513000 [30996(ThreadId 17)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2020-11-21 10:26:08.313830950000 [30996(ThreadId 17)] ERROR APP - user error (ExecResult not found.)
+2020-11-21 10:26:13.121892887000 [30996(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-21 10:26:23.976197166000 [31217(ThreadId 17)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2020-11-21 10:26:43.856507503000 [31217(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-11-21 10:31:58.095851435000 [31681(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.

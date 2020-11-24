@@ -1,0 +1,119 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: ee646cd949f765e47af38fa3e6504437e9f4e4bce6d8dc0d21827f369bb5408d
+
+name:           HelloMC
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/HelloMC#readme>
+homepage:       https://github.com/githubuser/HelloMC#readme
+bug-reports:    https://github.com/githubuser/HelloMC/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/HelloMC
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_HelloMC
+  hs-source-dirs:
+      src
+  build-depends:
+      aeson
+    , aeson-qq
+    , base >=4.7 && <5
+    , bytestring
+    , conduit
+    , conduit-extra
+    , cryptohash-md5
+    , extensible-effects
+    , json-rpc
+    , lens
+    , lens-aeson
+    , log-effect
+    , monad-control
+    , monad-logger
+    , mtl
+    , network
+    , random
+    , text
+    , uuid-types
+    , vector
+  default-language: Haskell2010
+
+executable HelloMC-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_HelloMC
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      HelloMC
+    , aeson
+    , aeson-qq
+    , base >=4.7 && <5
+    , bytestring
+    , conduit
+    , conduit-extra
+    , cryptohash-md5
+    , extensible-effects
+    , json-rpc
+    , lens
+    , lens-aeson
+    , log-effect
+    , monad-control
+    , monad-logger
+    , mtl
+    , network
+    , random
+    , text
+    , uuid-types
+    , vector
+  default-language: Haskell2010
+
+test-suite HelloMC-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_HelloMC
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      HelloMC
+    , aeson
+    , aeson-qq
+    , base >=4.7 && <5
+    , bytestring
+    , conduit
+    , conduit-extra
+    , cryptohash-md5
+    , extensible-effects
+    , json-rpc
+    , lens
+    , lens-aeson
+    , log-effect
+    , monad-control
+    , monad-logger
+    , mtl
+    , network
+    , random
+    , text
+    , uuid-types
+    , vector
+  default-language: Haskell2010

@@ -1,0 +1,69 @@
+name:                Codewars
+version:             0.1.0.0
+github:              "githubuser/Codewars"
+license:             BSD3
+author:              "Author name here"
+maintainer:          "example@example.com"
+copyright:           "2020 Author name here"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/githubuser/Codewars#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- split
+- lens
+- transformers
+- mtl
+- text
+- vector
+- random
+- parsec
+- megaparsec
+- hspec-megaparsec
+- attoparsec
+- hspec-attoparsec
+- regex-pcre
+- regex-tdfa
+- regex-posix
+- hspec
+- hspec-contrib
+- HUnit-approx
+- haskell-src-exts
+- QuickCheck
+
+
+library:
+  source-dirs: src
+
+executables:
+  Codewars-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - Codewars
+
+tests:
+  Codewars-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - Codewars

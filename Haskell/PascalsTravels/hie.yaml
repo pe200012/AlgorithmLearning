@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "PascalsTravels:lib"
+
+    - path: "./app/Main.hs"
+      component: "PascalsTravels:exe:PascalsTravels-exe"
+
+    - path: "./app/Paths_PascalsTravels.hs"
+      component: "PascalsTravels:exe:PascalsTravels-exe"
+
+    - path: "./test"
+      component: "PascalsTravels:test:PascalsTravels-test"
